@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winterspring</title>
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0134796aff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Roboto:400,700&display=swap">
+</head>
+<body class="bg-light d-flex flex-column min-vh-100">
+    <header class="text-dark text-center py-5 mb-4 bg-cover bg-center bg-norepeat border-bottom" style="background-image: url('images/img1.jpg'); z-index:1;">
+        <div class="d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-person-skiing-nordic fa-3x me-3 text-primary"></i>
+            <h1 class="display-4 fw-bold mb-0" style="font-family: 'Audiowide', sans-serif;">Winterspring</h1>
+        </div>
+    </header>
+    <div class="container flex-grow-1">
+	<video autoplay muted loop style="position: fixed;top: 0;left: 0;width: 100vw;height: 100vh;object-fit: cover;z-index: -1;opacity:0.2">
+          <source src="media/video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="row">
+            <nav class="col-md-3 mb-4">
+                <ul class="list-group">
+                    <li class="list-group-item bg-transparent"><a href="index.html" class="text-decoration-none"><i class="fa-solid fa-house me-2"></i> Home</a></li>
+                    <li class="list-group-item bg-transparent"><a href="news.html" class="text-decoration-none"><i class="fa-solid fa-newspaper me-2"></i> Newsletter</a></li>
+                    <li class="list-group-item bg-transparent"><a href="products.html" class="text-decoration-none"><i class="fa-solid fa-snowflake me-2"></i> Products</a></li>
+                    <li class="list-group-item bg-transparent"><a href="contact.html" class="text-decoration-none"><i class="fa-solid fa-envelope me-2"></i> Contact</a></li>
+                    <li class="list-group-item bg-transparent"><a href="about.html" class="text-decoration-none"><i class="fa-solid fa-info-circle me-2"></i> About</a></li>
+                    <li class="list-group-item bg-transparent"><a href="gallery.html" class="text-decoration-none"><i class="fa-solid fa-images me-2"></i> Gallery</a></li>
+                    <li class="list-group-item bg-transparent"><a href="maps.html" class="text-decoration-none"><i class="fa-solid fa-location me-2"></i> Locations</a></li>
+                    <li class="list-group-item bg-transparent"><a href="faq.html" class="text-decoration-none"><i class="fa-solid fa-question-circle me-2"></i> FAQ</a></li>
+                </ul>
+            </nav>
+			 <div class="col-md-9">
+                <div class="mb-4">
+                    <h2 class="locations-title text-primary">Locations</h2>
+                    <!-- Store Images and Maps -->
+                    <div class="row g-4">
+                        <!-- Store 1 -->
+                        <div class="col-md-6">
+                            <img src="images/STORE1.PNG" alt="Store 1" class="img-fluid">
+                        </div>
+                        <!-- Store 2 -->
+                        <div class="col-md-6">
+                            <img src="images/STORE2.PNG" alt="Store 2" class="img-fluid">
+                        </div>
+                        <!-- Store 3 -->
+                        <div class="col-md-6">
+                            <img src="images/STORE3.png" alt="Store 3" class="img-fluid">
+                        </div>
+                        <!-- Maps -->
+                        <div class="col-md-3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.983237430505!2d2.352183414322672!3d48.85661017929481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sEiffel%20Tower!5e0!3m2!1sen!2suk!4v1622655395109!5m2!1sen!2suk" allowfullscreen="" loading="lazy" class="img-fluid"></iframe>						
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790160.294114292!2d-73.9408816511434!3d53.13550907136193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb87d16bce63a4b%3A0x6540ef9c1081299a!2sQuebec%2C%20Canada!5e0!3m2!1sen!2suk!4v1622661782159!5m2!1sen!2suk" allowfullscreen="" loading="lazy" class="img-fluid"></iframe>
+                        </div>
+                        <div class="col-md-3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423980.95618675635!2d-118.6919204185218!3d34.02016129567597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdfd086ee5c59!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2suk!4v1622661837325!5m2!1sen!2suk" allowfullscreen="" loading="lazy" class="img-fluid"></iframe>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <a href="https://www.google.com/maps" class="btn btn-primary">View on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <footer class="text-center py-4 mt-5 bg-primary text-light border-top">
+        <!-- Social Icons -->
+        <div class="mb-3">
+            <a href="https://facebook.com" target="_blank" class="text-light me-2"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" class="text-light me-2"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" class="text-light me-2"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="text-light me-2"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <!-- Copyright -->
+        <p>&copy; 2024 Winterspring. All rights reserved.</p>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
